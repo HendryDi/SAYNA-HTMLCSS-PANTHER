@@ -27,7 +27,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to right, #02102a , #182643);
+    background: linear-gradient(to right, #020812 , #182643);
     color: #fff;
   }
    /* design pour l'en-tête de la page */
@@ -41,14 +41,14 @@ body {
   }
   .nav-item {
     font-family: 'font-beyno', sans-serif;
-    font-size: 32px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     margin-left: 20px;
     background: none;
   }
   .navbar img{
-    margin-right: 550px;
+    margin-right: 700px;
     background: none;
   }
   .nav-item:hover {
@@ -56,4 +56,45 @@ body {
     text-decoration: underline;
   }
   /* design pour la partie personnage du film */
- 
+  .wakanda{
+    display: flex;
+    margin: 100px auto;
+  }
+  .socialmedia{
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .socialmedia img{
+    height: 20px;
+    display: block;
+    margin-top: 20px;
+  }
+  .résumé{
+    margin: 100px 50px;
+  }
+  .résumé h1{
+    font-family: 'font-panthera',sans-serif;
+    font-size: 45px;
+    color: var(--violet-color);
+    margin-bottom: 0;
+  }
+  .résumé h2{
+    font-family: 'font-beyno', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    color: var(--violet-color);
+  }
+  .résumé p{
+    font-family: 'font-cantarell',sans-serif;
+    font-size: 16px;
+  }
+  .résumé a{
+    font-family: 'font-cantarell', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--white-color);
+  }
+ .bp{
+  height: 650px;
+ }
+
