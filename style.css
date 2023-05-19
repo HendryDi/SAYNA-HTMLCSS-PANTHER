@@ -14,16 +14,23 @@
   font-family: 'wakanda';
   src: url(./Assets/font/wakandaforever.ttf);
 }
-*{
-  background: linear-gradient(90deg,  #021740  0%,  #3D2DA6 90.43%);
+:root{
+  --white-color : #fff;
+  --pink-light: #F2CEF2;
+  --gray-light: #9E91B7;
+  --violet-color: #DF99F2;
+  --blue-pale: #3D2DA6;
+  --blue-color: #07338C;
+  --blue-dark: #021740;
 }
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: linear-gradient(to right, #02102a , #182643);
+    color: #fff;
   }
-  
+   /* design pour l'en-tête de la page */
   .navbar {
     display: flex;
     justify-content: flex-end;
@@ -39,7 +46,6 @@ body {
     text-decoration: none;
     margin-left: 20px;
     background: none;
-    
   }
   .navbar img{
     margin-right: 550px;
@@ -49,3 +55,5 @@ body {
     color: #DF99F2;
     text-decoration: underline;
   }
+  /* design pour la partie personnage du film */
+ 
