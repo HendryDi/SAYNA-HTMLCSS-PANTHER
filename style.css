@@ -76,14 +76,14 @@ body {
   .résumé h1{
     font-family: 'font-panthera',sans-serif;
     font-size: 45px;
-    color: var(--violet-color);
+    color: var(--gray-light);
     margin-bottom: 0;
   }
   .résumé h2{
     font-family: 'font-beyno', sans-serif;
     font-size: 20px;
     margin-top: 5px;
-    color: var(--violet-color);
+    color: var(--gray-light);
   }
   .résumé p{
     font-family: 'font-cantarell',sans-serif;
@@ -122,6 +122,7 @@ body {
 .killmonger1 h2{
   font-family: 'font-beyno',sans-serif;
   font-size: 16px; 
+  color: var(--gray-light);
 }
 .killmonger1 p{
   font-family: 'font-cantarell', sans-serif;
@@ -145,6 +146,7 @@ body {
 .okoye1 h2{
   font-family: 'font-beyno',sans-serif;
   font-size: 16px; 
+  color: var(--gray-light);
 }
 .okoye1 p{
   font-family: 'font-cantarell', sans-serif;
@@ -157,4 +159,54 @@ body {
 }
 .suri{
   display: flex;
+}
+
+/* design pour la description de black panther */
+
+#hero{
+  display: flex;
+  margin: 100px 200px;
+}
+.description{
+  margin-right: 150px;
+  text-align: justify;
+}
+.description h2{
+  text-transform: capitalize;
+  color: var(--gray-light);
+  font-family: 'font-beyno',sans-serif;
+  font-size: 16px;
+}
+.description p{
+  font-family: 'font-cantarell', sans-serif;
+  font-size: 12px;
+}
+
+/* design pour la carte T'challa */
+
+.tchalla1{
+  background-color: var(--white-color);
+  color: #020812;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.tchalla1 h2{
+  text-align: center;
+  font-family: 'cantarell',sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+}
+.nom{
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--blue-pale);
+  border-radius: 10px;
+  color: var(--white-color);
+}
+.nom p{
+  padding-left: 20px;
 }
