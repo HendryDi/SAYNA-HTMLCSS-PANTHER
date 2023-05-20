@@ -183,18 +183,31 @@ body {
 }
 
 /* design pour la carte T'challa */
-
+.tchalla{
+  position: relative;
+  height: 800px;
+  width: 450px;
+}
 .tchalla1{
+  position: absolute;
+  left: 15%;
+}
+.tchalla1 img{
+  height: 400px;
+}
+.tchalla2{
   background-color: var(--white-color);
+  width: 300px;
   color: #020812;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   padding-left: 50px;
   padding-right: 50px;
+  margin-top: 350px;
 }
 
-.tchalla1 h2{
+.tchalla2 h2{
   text-align: center;
   font-family: 'cantarell',sans-serif;
   font-size: 16px;
@@ -206,7 +219,52 @@ body {
   background-color: var(--blue-pale);
   border-radius: 10px;
   color: var(--white-color);
+  padding: 3px 10px;
 }
 .nom p{
-  padding-left: 20px;
+  font-family: 'cantarell', sans-serif;
+  font-size: 12px;
+}
+.propos{
+  font-family: 'cantarell',sans-serif;
+  font-size: 12px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+.busteblack{
+  height: 30%;
+  margin: 50px auto;
+  padding-left: 80px;
+}
+
+/* design pour le formulaire */
+
+.formulaire{
+  background-image: url(./Assets/img/Pantherhome7.png);
+  height: 100vh;
+  position: relative;
+}
+.formulaire1{
+  position: absolute;
+  background: var(--white-color) ;
+  opacity:60%;
+  border-radius: 120px;
+  display: flex;
+  color: #020812;
+  flex-direction: column;
+  align-items: center;
+  top: 35%;
+  left: 35%;
+  padding: 50px 150px;
+}
+.btn-group{
+  display: flex;
+  flex-direction: column;
+}
+.btn-group input{
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.btn-group textarea{
+  border-radius: 20px;
 }
