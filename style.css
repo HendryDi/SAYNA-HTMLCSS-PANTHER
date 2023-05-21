@@ -239,32 +239,45 @@ body {
 
 /* design pour le formulaire */
 
-.formulaire{
+#formulaire{
   background-image: url(./Assets/img/Pantherhome7.png);
   height: 100vh;
-  position: relative;
+  font-family: 'font-cantarell', sans-serif;
 }
 .formulaire1{
-  position: absolute;
   background: var(--white-color) ;
-  opacity:60%;
   border-radius: 120px;
-  display: flex;
+  width: 400px;
+  margin: 100px auto;
+  display: block;
   color: #020812;
-  flex-direction: column;
-  align-items: center;
-  top: 35%;
-  left: 35%;
+  text-align: center;
   padding: 50px 150px;
 }
-.btn-group{
-  display: flex;
-  flex-direction: column;
+
+.formulaire1 p{
+  font-size: 10px;
 }
-.btn-group input{
-  margin: 20px auto;
+.formulaire1 h1{
+  font-size: 38px;
+}
+.btn-group{
+  display: block;
+}
+.btn-group input[type="name"], input[type="email"]{
+  margin: 10px auto;
   border-radius: 20px;
+  padding: 10px 20px;
 }
 .btn-group textarea{
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 361px;
+  height: 120px;
+}
+.btn-group input[type="submit"]{
+  font-size: 10px;
+  margin: 10px auto;
+  padding: 10px 20px;
   border-radius: 20px;
 }

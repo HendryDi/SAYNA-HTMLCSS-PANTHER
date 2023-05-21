@@ -170,16 +170,18 @@
     </section>
 
     <!-- la partie formulaire -->
-    <section class="formulaire">
+    <section id="formulaire">
         <div class="formulaire1">
         <p>Besoin de l’intervention du Wakanda ?</p>
         <h1>Contactez nous !</h1>
+        <form action="#" method="post">
         <div class="btn-group">
-            <input type="name" id="name" placeholder="Nom">
-            <input type="email" id="email" placeholder="Email">
-            <textarea type="text" cols="30" placeholder="Message"></textarea>
+            <input type="name" id="name" name="name" placeholder="Nom">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <textarea cols="30" id="message" name="message" placeholder="Message"></textarea>
             <input type="submit" value="ENVOYER">
         </div>
+    </form>
     </div>
     </section>
     </main>
