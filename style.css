@@ -241,15 +241,18 @@ body {
 
 #formulaire{
   background-image: url(./Assets/img/Pantherhome7.png);
+  background-size: cover;
   height: 100vh;
   font-family: 'font-cantarell', sans-serif;
+  padding-top: 100px;
 }
 .formulaire1{
-  background: var(--white-color) ;
+  background: var(--white-color);
+  opacity: 60%;
   border-radius: 120px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin: 100px auto;
-  display: block;
   color: #020812;
   text-align: center;
   padding: 50px 150px;
@@ -257,27 +260,66 @@ body {
 
 .formulaire1 p{
   font-size: 10px;
+  margin: 0 auto;
 }
 .formulaire1 h1{
   font-size: 38px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
+
 .btn-group{
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .btn-group input[type="name"], input[type="email"]{
-  margin: 10px auto;
   border-radius: 20px;
   padding: 10px 20px;
+  margin-top: 10px;
 }
 .btn-group textarea{
   border-radius: 20px;
   padding: 10px 20px;
-  width: 361px;
-  height: 120px;
+  width: 261px;
+  height: 80px;
+  margin-top: 10px;
 }
 .btn-group input[type="submit"]{
   font-size: 10px;
   margin: 10px auto;
   padding: 10px 20px;
   border-radius: 20px;
+}
+
+/* Design pour le footer */
+
+/* .footer1{
+  background: url(./Assets/logo/back_footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+  
+}
+.saynamarvel{
+  background-image: url(./Assets/logo/footer1.png);
+  background-size: contain;
+  transform: scale(1.9);
+  background-repeat: no-repeat;
+  margin: 120px auto;
+  border: 1px solid #fff;
+}
+
+.saynamarvel1 img{
+  max-inline-size: 100%;
+  block-size: auto;
+  border: 1px solid #fff;
+} */
+footer{
+  background-image: url(./Assets/logo/back_footer.png);
+  background-size: cover;
+
 }
