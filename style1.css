@@ -26,7 +26,6 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   background: linear-gradient(to right, #020812, #182643);
   color: #fff;
 }
@@ -56,6 +55,13 @@ body {
   text-decoration: underline;
 }
 
+/* design pour le grand-titre */
+
+.grand-titre {
+  background: url(./Assets/img/Pantherwakanda1.png) center/cover;
+  height: 650px;
+}
+
 /* Design pour le footer */
 
 .footer1 {
@@ -70,7 +76,7 @@ body {
 }
 .saynamarvel {
   background-image: url(./Assets/logo/footer1.png);
-  background-size: contain;
+  background-size: cover;
   transform: scale(1.9);
   background-repeat: no-repeat;
   margin: 120px 100px;
