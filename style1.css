@@ -58,8 +58,65 @@ body {
 /* design pour le grand-titre */
 
 .grand-titre {
-  background: url(./Assets/img/Pantherwakanda1.png) center/cover;
-  height: 650px;
+  background: url(./Assets/img/Pantherwakanda1.jpg) center/cover;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+  padding-top: 450px;
+}
+.grand-titre h1 {
+  width: 500px;
+  font-family: "beyno";
+  font-size: 48px;
+  color: var(--violet-color);
+  margin: 0;
+}
+.grand-titre h2 {
+  font-family: "wakanda";
+  font-size: 32px;
+  color: var(--violet-color);
+  width: 500px;
+  margin: 0;
+}
+.grand-titre p {
+  font-family: "cantarell";
+  font-size: 12px;
+  width: 300px;
+}
+/* design pour les petits titres */
+
+.petit-titre {
+  background-image: url(./Assets/img/Pantherwakanda2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: 100px 150px;
+  text-align: justify;
+}
+.petit-titre h2 {
+  font-family: "beyno";
+  font-size: 22px;
+  color: var(--violet-color);
+}
+.petit-titre p {
+  font-family: "cantarell";
+  font-size: 12px;
+  padding-right: 100px;
+}
+
+.petit-titre1 p {
+  padding-right: 200px;
+}
+.vid-origine {
+  height: 300px;
+  width: 300px;
+  margin: 100px auto;
+  background-image: url(./Assets/logo/icon_player.png);
+  background-repeat: no-repeat;
+}
+.image-force img {
+  width: 400px;
 }
 
 /* Design pour le footer */
@@ -76,8 +133,8 @@ body {
 }
 .saynamarvel {
   background-image: url(./Assets/logo/footer1.png);
-  background-size: cover;
-  transform: scale(1.9);
+  background-size: contain;
+  transform: scale(1.5);
   background-repeat: no-repeat;
   margin: 120px 100px;
 }
@@ -86,7 +143,8 @@ body {
   max-inline-size: 100%;
   block-size: auto;
   position: relative;
-  top: 50px;
+  top: 60px;
+  right: 10px;
   transform: scale(0.5);
 }
 
@@ -98,11 +156,27 @@ body {
 }
 .saynamarvel3 {
   display: flex;
+  font-family: "cantarell";
 }
 .pages {
+  display: flex;
+  flex-direction: column;
+}
+.pages a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--white-color);
+  margin-top: 10px;
 }
 .contactus {
   margin-left: 150px;
+}
+.contactus a {
+  margin-left: 25px;
+  background: none;
+}
+.contactus img {
+  width: 30px;
 }
 .disclamer {
   margin-top: 100px;
@@ -111,7 +185,9 @@ body {
   display: flex;
 }
 .disclamer li {
-  padding-left: 10px;
-
-  list-style: none;
+  /* padding-left: 10px; */
+  /* list-style: none; */
+  padding-right: 20px;
+  font-family: "cantarell";
+  font-size: 12px;
 }

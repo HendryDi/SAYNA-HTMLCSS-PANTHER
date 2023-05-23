@@ -306,7 +306,7 @@ input[type="email"] {
 .saynamarvel {
   background-image: url(./Assets/logo/footer1.png);
   background-size: contain;
-  transform: scale(1.9);
+  transform: scale(1.5);
   background-repeat: no-repeat;
   margin: 120px 100px;
 }
@@ -315,7 +315,8 @@ input[type="email"] {
   max-inline-size: 100%;
   block-size: auto;
   position: relative;
-  top: 50px;
+  top: 60px;
+  right: 10px;
   transform: scale(0.5);
 }
 
@@ -327,10 +328,27 @@ input[type="email"] {
 }
 .saynamarvel3 {
   display: flex;
+  font-family: "cantarell";
 }
-
+.pages {
+  display: flex;
+  flex-direction: column;
+}
+.pages a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--white-color);
+  margin-top: 10px;
+}
 .contactus {
   margin-left: 150px;
+}
+.contactus a {
+  margin-left: 25px;
+  background: none;
+}
+.contactus img {
+  width: 30px;
 }
 .disclamer {
   margin-top: 100px;
@@ -339,7 +357,9 @@ input[type="email"] {
   display: flex;
 }
 .disclamer li {
-  padding-left: 10px;
-
-  list-style: none;
+  /* padding-left: 10px; */
+  /* list-style: none; */
+  padding-right: 20px;
+  font-family: "cantarell";
+  font-size: 12px;
 }
