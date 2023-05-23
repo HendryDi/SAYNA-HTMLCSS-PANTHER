@@ -1,201 +1,200 @@
-@font-face{
-    font-family: 'font-beyno';
-    src: url(./Assets/font/BEYNO.ttf);
+@font-face {
+  font-family: "font-beyno";
+  src: url(./Assets/font/BEYNO.ttf);
 }
 @font-face {
-  font-family: 'font-cantarell';
+  font-family: "font-cantarell";
   src: url(./Assets/font/Cantarell.ttf);
 }
 @font-face {
-  font-family: 'font-panthera';
+  font-family: "font-panthera";
   src: url(./Assets/font/Panthera.ttf);
 }
 @font-face {
-  font-family: 'wakanda';
+  font-family: "wakanda";
   src: url(./Assets/font/wakandaforever.ttf);
 }
-:root{
-  --white-color : #fff;
-  --pink-light: #F2CEF2;
-  --gray-light: #9E91B7;
-  --violet-color: #DF99F2;
-  --blue-pale: #3D2DA6;
-  --blue-color: #07338C;
+:root {
+  --white-color: #fff;
+  --pink-light: #f2cef2;
+  --gray-light: #9e91b7;
+  --violet-color: #df99f2;
+  --blue-pale: #3d2da6;
+  --blue-color: #07338c;
   --blue-dark: #021740;
 }
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: linear-gradient(to right, #020812 , #182643);
-    color: #fff;
-  }
-   /* design pour l'en-tête de la page */
-  .navbar {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-    margin-top: 15px;
-    width: 90%;
-    background: none;
-  }
-  .nav-item {
-    font-family: 'font-beyno', sans-serif;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    background: none;
-  }
-  .navbar img{
-    margin-right: 700px;
-    background: none;
-  }
-  .nav-item:hover {
-    color: #DF99F2;
-    text-decoration: underline;
-  }
-  /* design pour la partie personnage du film */
-  .wakanda{
-    display: flex;
-    margin-top: 100px;
-    margin-bottom: 0;
-  }
-  .socialmedia{
-    margin-top: 150px;
-    margin-left: 50px;
-  }
-  .socialmedia img{
-    height: 20px;
-    display: block;
-    margin-top: 20px;
-  }
-  .résumé{
-    margin: 100px 50px;
-  }
-  .résumé h1{
-    font-family: 'font-panthera',sans-serif;
-    font-size: 45px;
-    color: var(--gray-light);
-    margin-bottom: 0;
-  }
-  .résumé h2{
-    font-family: 'font-beyno', sans-serif;
-    font-size: 20px;
-    margin-top: 5px;
-    color: var(--gray-light);
-  }
-  .résumé p{
-    font-family: 'font-cantarell',sans-serif;
-    font-size: 16px;
-  }
-  .résumé a{
-    font-family: 'font-cantarell', sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-    color: var(--white-color);
-  }
- .bp{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #020812, #182643);
+  color: #fff;
+}
+/* design pour l'en-tête de la page */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-top: 15px;
+  width: 90%;
+  background: none;
+}
+.nav-item {
+  font-family: "font-beyno", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  background: none;
+}
+.navbar img {
+  margin-right: 700px;
+  background: none;
+}
+.nav-item:hover {
+  color: #df99f2;
+  text-decoration: underline;
+}
+/* design pour la partie personnage du film */
+.wakanda {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.socialmedia {
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.socialmedia img {
+  height: 20px;
+  display: block;
+  margin-top: 20px;
+}
+.résumé {
+  margin: 100px 50px;
+}
+.résumé h1 {
+  font-family: "font-panthera", sans-serif;
+  font-size: 45px;
+  color: var(--gray-light);
+  margin-bottom: 0;
+}
+.résumé h2 {
+  font-family: "font-beyno", sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  color: var(--gray-light);
+}
+.résumé p {
+  font-family: "font-cantarell", sans-serif;
+  font-size: 16px;
+}
+.résumé a {
+  font-family: "font-cantarell", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--white-color);
+}
+.bp {
   height: 650px;
- }
+}
 
- /* design pour la barre de personnage */
+/* design pour la barre de personnage */
 
- .personnage{
+.personnage {
   display: flex;
   height: 300px;
   background: var(--blue-dark);
   margin-left: 120px;
   margin-top: -70px;
   margin-bottom: 150px;
- }
-.killmonger{
-  display: flex;
-  
 }
-.killmonger1{
+.killmonger {
+  display: flex;
+}
+.killmonger1 {
   margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
 }
-.killmonger1 h2{
-  font-family: 'font-beyno',sans-serif;
-  font-size: 16px; 
+.killmonger1 h2 {
+  font-family: "font-beyno", sans-serif;
+  font-size: 16px;
   color: var(--gray-light);
 }
-.killmonger1 p{
-  font-family: 'font-cantarell', sans-serif;
+.killmonger1 p {
+  font-family: "font-cantarell", sans-serif;
   font-size: 12px;
 }
-.killmonger1 a{
+.killmonger1 a {
   color: var(--white-color);
-  font-family: 'font-cantarell';
+  font-family: "font-cantarell";
   font-size: 12px;
 }
-.okoye{
+.okoye {
   display: flex;
 }
 
-.okoye1{
+.okoye1 {
   margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
 }
-.okoye1 h2{
-  font-family: 'font-beyno',sans-serif;
-  font-size: 16px; 
+.okoye1 h2 {
+  font-family: "font-beyno", sans-serif;
+  font-size: 16px;
   color: var(--gray-light);
 }
-.okoye1 p{
-  font-family: 'font-cantarell', sans-serif;
+.okoye1 p {
+  font-family: "font-cantarell", sans-serif;
   font-size: 12px;
 }
-.okoye1 a{
+.okoye1 a {
   color: var(--white-color);
-  font-family: 'font-cantarell';
+  font-family: "font-cantarell";
   font-size: 12px;
 }
-.suri{
+.suri {
   display: flex;
 }
 
 /* design pour la description de black panther */
 
-#hero{
+#hero {
   display: flex;
   margin: 100px 200px;
 }
-.description{
+.description {
   margin-right: 150px;
   text-align: justify;
 }
-.description h2{
+.description h2 {
   text-transform: capitalize;
   color: var(--gray-light);
-  font-family: 'font-beyno',sans-serif;
+  font-family: "font-beyno", sans-serif;
   font-size: 16px;
 }
-.description p{
-  font-family: 'font-cantarell', sans-serif;
+.description p {
+  font-family: "font-cantarell", sans-serif;
   font-size: 12px;
 }
 
 /* design pour la carte T'challa */
-.tchalla{
+.tchalla {
   position: relative;
   height: 800px;
   width: 450px;
 }
-.tchalla1{
+.tchalla1 {
   position: absolute;
   left: 15%;
 }
-.tchalla1 img{
+.tchalla1 img {
   height: 400px;
 }
-.tchalla2{
+.tchalla2 {
   background-color: var(--white-color);
   width: 300px;
   color: #020812;
@@ -207,13 +206,13 @@ body {
   margin-top: 350px;
 }
 
-.tchalla2 h2{
+.tchalla2 h2 {
   text-align: center;
-  font-family: 'cantarell',sans-serif;
+  font-family: "cantarell", sans-serif;
   font-size: 16px;
   margin-top: 50px;
 }
-.nom{
+.nom {
   display: flex;
   justify-content: space-around;
   background-color: var(--blue-pale);
@@ -221,17 +220,17 @@ body {
   color: var(--white-color);
   padding: 3px 10px;
 }
-.nom p{
-  font-family: 'cantarell', sans-serif;
+.nom p {
+  font-family: "cantarell", sans-serif;
   font-size: 12px;
 }
-.propos{
-  font-family: 'cantarell',sans-serif;
+.propos {
+  font-family: "cantarell", sans-serif;
   font-size: 12px;
   margin-top: 25px;
   margin-bottom: 100px;
 }
-.busteblack{
+.busteblack {
   height: 30%;
   margin: 50px auto;
   padding-left: 80px;
@@ -239,14 +238,14 @@ body {
 
 /* design pour le formulaire */
 
-#formulaire{
+#formulaire {
   background-image: url(./Assets/img/Pantherhome7.png);
   background-size: cover;
   height: 100vh;
-  font-family: 'font-cantarell', sans-serif;
+  font-family: "font-cantarell", sans-serif;
   padding-top: 100px;
 }
-.formulaire1{
+.formulaire1 {
   background: var(--white-color);
   opacity: 60%;
   border-radius: 120px;
@@ -258,33 +257,34 @@ body {
   padding: 50px 150px;
 }
 
-.formulaire1 p{
+.formulaire1 p {
   font-size: 10px;
   margin: 0 auto;
 }
-.formulaire1 h1{
+.formulaire1 h1 {
   font-size: 38px;
   margin: 0 auto;
   padding-bottom: 20px;
 }
 
-.btn-group{
+.btn-group {
   display: flex;
   flex-direction: column;
 }
-.btn-group input[type="name"], input[type="email"]{
+.btn-group input[type="name"],
+input[type="email"] {
   border-radius: 20px;
   padding: 10px 20px;
   margin-top: 10px;
 }
-.btn-group textarea{
+.btn-group textarea {
   border-radius: 20px;
   padding: 10px 20px;
   width: 261px;
   height: 80px;
   margin-top: 10px;
 }
-.btn-group input[type="submit"]{
+.btn-group input[type="submit"] {
   font-size: 10px;
   margin: 10px auto;
   padding: 10px 20px;
@@ -293,7 +293,7 @@ body {
 
 /* Design pour le footer */
 
-.footer1{
+.footer1 {
   background: url(./Assets/logo/back_footer.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -302,18 +302,16 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 150px;
-  
 }
-.saynamarvel{
+.saynamarvel {
   background-image: url(./Assets/logo/footer1.png);
   background-size: contain;
   transform: scale(1.9);
   background-repeat: no-repeat;
   margin: 120px 100px;
-  
 }
 
-.saynamarvel1{
+.saynamarvel1 {
   max-inline-size: 100%;
   block-size: auto;
   position: relative;
@@ -321,34 +319,28 @@ body {
   transform: scale(0.5);
 }
 
-.saynamarvel2{
-  border: 1px solid #fff;
+.saynamarvel2 {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
   padding-right: 200px;
 }
-.saynamarvel3{
-  border: 1px solid #fff;
+.saynamarvel3 {
   display: flex;
-
 }
-.pages{
-
+.pages {
 }
-.contactus{
+.contactus {
   margin-left: 150px;
 }
-.disclamer{
+.disclamer {
   margin-top: 100px;
-  
 }
-.disclamer ul{
+.disclamer ul {
   display: flex;
-  
 }
-.disclamer li{
+.disclamer li {
   padding-left: 10px;
-  
+
   list-style: none;
 }
