@@ -293,7 +293,7 @@ body {
 
 /* Design pour le footer */
 
-/* .footer1{
+.footer1{
   background: url(./Assets/logo/back_footer.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -309,17 +309,46 @@ body {
   background-size: contain;
   transform: scale(1.9);
   background-repeat: no-repeat;
-  margin: 120px auto;
-  border: 1px solid #fff;
+  margin: 120px 100px;
+  
 }
 
-.saynamarvel1 img{
+.saynamarvel1{
   max-inline-size: 100%;
   block-size: auto;
-  border: 1px solid #fff;
-} */
-footer{
-  background-image: url(./Assets/logo/back_footer.png);
-  background-size: cover;
+  position: relative;
+  top: 50px;
+  transform: scale(0.5);
+}
 
+.saynamarvel2{
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding-right: 200px;
+}
+.saynamarvel3{
+  border: 1px solid #fff;
+  display: flex;
+
+}
+.pages{
+
+}
+.contactus{
+  margin-left: 150px;
+}
+.disclamer{
+  margin-top: 100px;
+  
+}
+.disclamer ul{
+  display: flex;
+  
+}
+.disclamer li{
+  padding-left: 10px;
+  
+  list-style: none;
 }
