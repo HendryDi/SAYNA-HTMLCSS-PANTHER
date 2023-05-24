@@ -55,6 +55,57 @@ body {
   text-decoration: underline;
 }
 
+/* design pour la partie défi */
+.defi {
+  display: flex;
+}
+.defi img {
+  width: 60%;
+}
+.defi1 {
+  padding-top: 200px;
+}
+.defi1 h1 {
+  font-family: "beyno";
+  font-size: 48px;
+  color: var(--violet-color);
+}
+.defi1 p {
+  padding: 100px 100px 50px 100px;
+  margin-right: 100px;
+  margin-top: 200px;
+  text-align: justify;
+  font-family: "cantarell";
+  font-size: 10px;
+  background: url(./Assets/img/Pantherenigme2.png);
+  background-size: cover;
+  background-position: 150px 50px 0 0;
+  background-repeat: no-repeat;
+}
+.defi1 img {
+  height: 2px;
+  width: 600px;
+}
+
+/* design pour la partie enigme */
+
+.enigme {
+  margin: 100px 200px;
+}
+.enigme h1 {
+  font-family: "wakanda";
+  color: var(--violet-color);
+}
+.enigme1 {
+  display: flex;
+}
+
+/* design de la partie pour répondre */
+
+.reponse {
+  margin: 0 200px;
+}
+
 /* Design pour le footer */
 
 .footer1 {
