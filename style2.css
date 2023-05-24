@@ -26,7 +26,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #020812, #182643);
+  background: linear-gradient(to right, #000000, #182643);
   color: #fff;
 }
 /* design pour l'en-tête de la page */
@@ -59,8 +59,11 @@ body {
 .defi {
   display: flex;
 }
-.defi img {
-  width: 60%;
+.defi0 img {
+  margin-top: 100px;
+  padding-top: 70px;
+  opacity: 60%;
+  height: 700px;
 }
 .defi1 {
   padding-top: 200px;
@@ -71,18 +74,19 @@ body {
   color: var(--violet-color);
 }
 .defi1 p {
-  padding: 100px 100px 50px 100px;
+  padding: 100px 150px 100px 120px;
   margin-right: 100px;
   margin-top: 200px;
   text-align: justify;
   font-family: "cantarell";
   font-size: 10px;
   background: url(./Assets/img/Pantherenigme2.png);
-  background-size: cover;
-  background-position: 150px 50px 0 0;
+  background-size: contain;
+  /* background-position: 150px 50px 0 0; */
   background-repeat: no-repeat;
 }
 .defi1 img {
+  margin-top: 0;
   height: 2px;
   width: 600px;
 }
@@ -98,12 +102,44 @@ body {
 }
 .enigme1 {
   display: flex;
+  margin-top: 100px;
+  font-family: "cantarell";
+  font-size: 12px;
 }
-
+.transcription {
+  padding: 50px 100px 0 0;
+}
+.alphabet {
+  font-family: "wakanda";
+}
+.savaistu {
+  padding: 100px 100px;
+  background: url(./Assets/img/Pantherenigme2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
 /* design de la partie pour répondre */
 
 .reponse {
   margin: 0 200px;
+  font-family: "cantarell";
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.reponse input[type="text"] {
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: var(--white-color);
+  padding: 10px 15px;
+  margin: 0 700px 10px 0;
+}
+.reponse input[type="submit"] {
+  border-radius: 20px;
+  border-color: var(--white-color);
+  padding: 10px 15px;
+  margin: 50px 850px 0 150px;
 }
 
 /* Design pour le footer */
