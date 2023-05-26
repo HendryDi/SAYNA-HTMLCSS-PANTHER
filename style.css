@@ -29,6 +29,18 @@ body {
   box-sizing: border-box;
   background: linear-gradient(to right, #020812, #182643);
   color: #fff;
+  animation: fadeInLeft 1s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 /* design pour l'en-tête de la page */
 .navbar {
@@ -54,6 +66,10 @@ body {
   background: none;
 }
 
+.navbar img:hover {
+  filter: brightness(80%);
+}
+
 .nav-item:hover {
   color: #df99f2;
   text-decoration: underline;
@@ -68,7 +84,7 @@ body {
 
 .socialmedia {
   margin-top: 50px;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 .socialmedia img {
@@ -77,6 +93,9 @@ body {
   margin-top: 10px;
 }
 
+.socialmedia img:hover {
+  filter: brightness(200%);
+}
 .résumé {
   margin: 50px;
 }
@@ -116,7 +135,6 @@ body {
 .personnage {
   display: flex;
   height: 300px;
-
   background: var(--blue-dark);
   margin-left: 120px;
   margin-top: -70px;
@@ -132,7 +150,7 @@ body {
   transform: scale(1.2);
 }
 .killmonger1 {
-  margin-top: 25px;
+  margin-top: 5px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
@@ -162,7 +180,7 @@ body {
   transform: scale(1.2);
 }
 .okoye1 {
-  margin-top: 25px;
+  margin-top: 5px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
@@ -176,11 +194,13 @@ body {
 .okoye1 p {
   font-family: "font-cantarell", sans-serif;
   font-size: 10px;
+  margin-bottom: 0;
 }
 .okoye1 a {
   color: var(--white-color);
   font-family: "font-cantarell";
   font-size: 12px;
+  margin-top: 0;
 }
 .suri {
   display: flex;
@@ -192,7 +212,7 @@ body {
   transform: scale(1.2);
 }
 .suri1 {
-  margin-top: 25px;
+  margin-top: 5px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
@@ -211,20 +231,6 @@ body {
   color: var(--white-color);
   font-family: "font-cantarell";
   font-size: 12px;
-}
-button {
-  height: 40px;
-  border-radius: 300px;
-  border-color: transparent;
-  background-color: var(--blue-dark);
-  margin-top: 120px;
-  margin-right: 20px;
-}
-.scroll-right img {
-  height: 20px;
-}
-button:hover {
-  background-color: #fff;
 }
 
 /* design pour la description de black panther */
@@ -358,13 +364,13 @@ button:hover {
 
 .btn-group input[type="name"],
 .btn-group input[type="email"] {
-  border-radius: 20px;
+  border-radius: 38px;
   padding: 10px 20px;
   margin-top: 10px;
 }
 
 .btn-group textarea {
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 10px 20px;
   width: 261px;
   height: 80px;
@@ -375,8 +381,11 @@ button:hover {
   font-size: 10px;
   margin: 10px auto;
   padding: 10px 20px;
-  border-radius: 20px;
+  border-radius: 38px;
   background: #e5c3f7;
+}
+.btn-group input[type="submit"]:hover {
+  box-shadow: 0 0 20px #021740;
 }
 
 /* Design pour le footer */
@@ -398,6 +407,10 @@ button:hover {
   transform: scale(1.5);
   background-repeat: no-repeat;
   margin: 120px 100px;
+}
+
+.saynamarvel:hover {
+  transform: scale(1.7);
 }
 
 .saynamarvel1 {
@@ -426,6 +439,11 @@ button:hover {
   flex-direction: column;
 }
 
+.pages h2 {
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
 .pages a {
   text-decoration: none;
   text-transform: capitalize;
@@ -433,18 +451,32 @@ button:hover {
   margin-top: 10px;
 }
 
+.pages a:hover {
+  text-decoration: underline;
+}
+
 .contactus {
   margin-left: 150px;
 }
 
+.contactus h2 {
+  margin-left: 20px;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
 .contactus a {
-  margin-left: 25px;
+  margin-left: 40px;
   background: none;
   text-decoration: none;
 }
 
 .contactus img {
   width: 30px;
+}
+
+.contactus img:hover {
+  transform: scale(1.2);
 }
 
 .disclamer {
@@ -459,6 +491,10 @@ button:hover {
   padding-right: 20px;
   font-family: "cantarell";
   font-size: 12px;
+}
+
+.droits {
+  list-style: none;
 }
 
 @media (max-width: 768px) {
@@ -487,6 +523,9 @@ button:hover {
   .socialmedia {
     margin-top: 20px;
     margin-left: 0;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
   }
 
   .résumé {

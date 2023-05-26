@@ -30,6 +30,18 @@ body {
   box-sizing: border-box;
   background: linear-gradient(to right, #020812, #182643);
   color: #fff;
+  animation: fadeInLeft 1s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 /* design pour l'en-tête de la page */
 .navbar {
@@ -51,6 +63,9 @@ body {
 .navbar img {
   margin-right: 700px;
   background: none;
+}
+.navbar img:hover {
+  filter: brightness(80%);
 }
 .nav-item:hover {
   color: #df99f2;
@@ -111,11 +126,13 @@ body {
   padding-right: 200px;
 }
 .vid-origine {
-  height: 300px;
-  width: 300px;
-  margin: 100px auto;
-  background-image: url(./Assets/logo/icon_player.png);
-  background-repeat: no-repeat;
+  height: 200px;
+  width: 500px;
+  margin: 100px 20px;
+}
+video {
+  max-inline-size: 100%;
+  block-size: auto;
 }
 .image-force img {
   width: 400px;
@@ -139,6 +156,10 @@ body {
   transform: scale(1.5);
   background-repeat: no-repeat;
   margin: 120px 100px;
+}
+
+.saynamarvel:hover {
+  transform: scale(1.7);
 }
 
 .saynamarvel1 {
@@ -181,6 +202,9 @@ body {
 .contactus img {
   width: 30px;
 }
+.contactus img:hover {
+  transform: scale(1.2);
+}
 .disclamer {
   margin-top: 100px;
 }
@@ -188,8 +212,6 @@ body {
   display: flex;
 }
 .disclamer li {
-  /* padding-left: 10px; */
-  /* list-style: none; */
   padding-right: 20px;
   font-family: "cantarell";
   font-size: 12px;
