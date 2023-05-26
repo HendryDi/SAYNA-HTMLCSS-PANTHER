@@ -63,10 +63,13 @@ body {
 .navbar img {
   margin-right: 700px;
   background: none;
+  filter: invert(50%);
 }
+
 .navbar img:hover {
-  filter: brightness(80%);
+  filter: hue-rotate(270deg);
 }
+
 .nav-item:hover {
   color: #df99f2;
   text-decoration: underline;
