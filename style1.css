@@ -175,6 +175,7 @@ body {
 .contactus a {
   margin-left: 25px;
   background: none;
+  text-decoration: none;
 }
 .contactus img {
   width: 30px;
