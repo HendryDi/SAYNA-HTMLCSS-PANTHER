@@ -64,10 +64,11 @@ body {
 .navbar img {
   margin-right: 700px;
   background: none;
+  filter: invert(50%);
 }
 
 .navbar img:hover {
-  filter: brightness(80%);
+  filter: hue-rotate(270deg);
 }
 
 .nav-item:hover {
@@ -83,40 +84,43 @@ body {
 }
 
 .socialmedia {
-  margin-top: 50px;
-  margin-left: 10px;
+  margin-top: 180px;
+  position: fixed;
 }
 
 .socialmedia img {
   height: 20px;
   display: block;
-  margin-top: 10px;
+  margin-top: 25px;
+  margin-left: 80px;
 }
 
 .socialmedia img:hover {
   filter: brightness(200%);
 }
+
 .résumé {
-  margin: 50px;
+  margin-top: 150px;
+  margin-left: 150px;
 }
 
 .résumé h1 {
   font-family: "font-panthera", sans-serif;
-  font-size: 30px;
+  font-size: 44px;
   color: var(--gray-light);
   margin-bottom: 0;
 }
 
 .résumé h2 {
   font-family: "font-beyno", sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   margin-top: 5px;
   color: var(--gray-light);
 }
 
 .résumé p {
   font-family: "font-cantarell", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .résumé a {
@@ -124,6 +128,10 @@ body {
   font-size: 14px;
   text-decoration: none;
   color: var(--white-color);
+}
+
+.résumé a:hover {
+  text-decoration: underline;
 }
 
 .bp {
@@ -169,6 +177,10 @@ body {
   color: var(--white-color);
   font-family: "font-cantarell";
   font-size: 12px;
+  text-decoration: none;
+}
+.killmonger1 a:hover {
+  text-decoration: underline;
 }
 .okoye {
   display: flex;
@@ -186,6 +198,7 @@ body {
   text-align: justify;
   padding: 20px 20px;
 }
+
 .okoye1 h2 {
   font-family: "font-beyno", sans-serif;
   font-size: 16px;
@@ -201,6 +214,10 @@ body {
   font-family: "font-cantarell";
   font-size: 12px;
   margin-top: 0;
+  text-decoration: none;
+}
+.okoye1 a:hover {
+  text-decoration: underline;
 }
 .suri {
   display: flex;
@@ -231,6 +248,10 @@ body {
   color: var(--white-color);
   font-family: "font-cantarell";
   font-size: 12px;
+  text-decoration: none;
+}
+.suri1 a:hover {
+  text-decoration: underline;
 }
 
 /* design pour la description de black panther */
@@ -500,6 +521,7 @@ body {
 @media (max-width: 768px) {
   body {
     font-size: 14px;
+    width: 724px;
   }
   .navbar {
     justify-content: center;
@@ -529,7 +551,8 @@ body {
   }
 
   .résumé {
-    margin: 20px;
+    margin: 100px auto;
+    padding: 0 150px;
   }
 
   .résumé h1 {
@@ -550,12 +573,14 @@ body {
 
   .bp {
     height: auto;
+    width: 80%;
+    padding-left: 100px;
   }
   .personnage {
     flex-direction: column;
     height: auto;
-    margin-left: 0;
     margin-top: 0;
+    margin-left: 50px;
     margin-bottom: 50px;
   }
 
@@ -568,6 +593,12 @@ body {
     margin: 0;
     padding: 10px;
     text-align: center;
+  }
+
+  .killmonger img,
+  .okoye img {
+    height: 300px;
+    width: 218px;
   }
 
   .killmonger1,
@@ -592,10 +623,15 @@ body {
 
   .description p {
     font-size: 10px;
+    width: 670px;
   }
   .tchalla {
     height: auto;
     width: 100%;
+    margin-left: 15%;
+  }
+  .tchalla1 {
+    margin-left: 15px;
   }
   .tchalla2 {
     margin-left: 45px;
@@ -607,12 +643,14 @@ body {
   }
   #formulaire {
     padding-top: 50px;
+    background-position: center;
+    margin-left: 50px;
   }
 
   .formulaire1 {
     height: auto;
     width: 50%;
-    margin: 50px auto;
+    margin: 100px auto;
     padding: 30px;
   }
 
@@ -633,6 +671,9 @@ body {
     font-size: 8px;
     padding: 5px 10px;
     margin-top: 5px;
+  }
+  footer {
+    margin-left: 50px;
   }
   .footer1 {
     height: auto;
@@ -677,5 +718,8 @@ body {
   .disclamer li {
     padding-right: 0;
     margin-bottom: 10px;
+  }
+  .droits {
+    list-style: disc;
   }
 }

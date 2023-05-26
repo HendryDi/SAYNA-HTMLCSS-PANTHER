@@ -77,10 +77,10 @@ body {
 }
 
 .defi0 img {
-  margin-top: 100px;
-  padding-top: 70px;
+  margin-top: 200px;
   opacity: 40%;
-  height: 400px;
+  height: 700px;
+  width: 918px;
 }
 .defi1 {
   padding-top: 200px;
@@ -92,14 +92,13 @@ body {
 }
 .defi1 p {
   padding: 100px 150px 100px 120px;
-  margin-right: 100px;
-  margin-top: 200px;
+  margin-right: 50px;
+  margin-top: 230px;
   text-align: justify;
   font-family: "cantarell";
   font-size: 10px;
   background: url(./Assets/img/Pantherenigme2.png);
   background-size: contain;
-  /* background-position: 150px 50px 0 0; */
   background-repeat: no-repeat;
 }
 .defi1 img {
