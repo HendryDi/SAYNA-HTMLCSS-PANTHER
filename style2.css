@@ -89,7 +89,7 @@ body {
   padding-top: 200px;
 }
 .defi1 h1 {
-  font-family: "beyno";
+  font-family: "font-beyno";
   font-size: 48px;
   color: var(--violet-color);
 }
@@ -98,7 +98,7 @@ body {
   margin-right: 50px;
   margin-top: 230px;
   text-align: justify;
-  font-family: "cantarell";
+  font-family: "font-cantarell";
   font-size: 10px;
   background: url(./Assets/img/Pantherenigme2.png);
   background-size: contain;
@@ -122,7 +122,7 @@ body {
 .enigme1 {
   display: flex;
   margin-top: 100px;
-  font-family: "cantarell";
+  font-family: "font-cantarell";
   font-size: 12px;
 }
 .transcription {
@@ -144,7 +144,7 @@ body {
 
 .reponse {
   margin: 0 200px;
-  font-family: "cantarell";
+  font-family: "font-cantarell";
   font-size: 12px;
   display: flex;
   flex-direction: column;
@@ -208,7 +208,7 @@ body {
 }
 .saynamarvel3 {
   display: flex;
-  font-family: "cantarell";
+  font-family: "font-cantarell";
 }
 .pages {
   display: flex;
@@ -242,6 +242,6 @@ body {
 }
 .disclamer li {
   padding-right: 20px;
-  font-family: "cantarell";
+  font-family: "font-cantarell";
   font-size: 12px;
 }

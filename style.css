@@ -308,7 +308,7 @@ body {
 
 .tchalla2 h2 {
   text-align: center;
-  font-family: "cantarell", sans-serif;
+  font-family: "font-cantarell", sans-serif;
   font-size: 16px;
   margin-top: 50px;
 }
@@ -328,12 +328,12 @@ body {
 }
 
 .nom p {
-  font-family: "cantarell", sans-serif;
+  font-family: "font-cantarell", sans-serif;
   font-size: 12px;
 }
 
 .propos {
-  font-family: "cantarell", sans-serif;
+  font-family: "font-cantarell", sans-serif;
   font-size: 12px;
   margin-top: 25px;
   margin-bottom: 100px;
@@ -452,7 +452,7 @@ body {
 
 .saynamarvel3 {
   display: flex;
-  font-family: "cantarell";
+  font-family: "font-cantarell";
 }
 
 .pages {
@@ -510,7 +510,7 @@ body {
 
 .disclamer li {
   padding-right: 20px;
-  font-family: "cantarell";
+  font-family: "font-cantarell";
   font-size: 12px;
 }
 
