@@ -255,10 +255,15 @@ body {
 .nom {
   display: flex;
   justify-content: space-around;
+}
+
+.nom span {
   background-color: var(--blue-pale);
+  border: 1px solid white;
   border-radius: 10px;
   color: var(--white-color);
   padding: 3px 10px;
+  margin: 0 5px;
 }
 
 .nom p {
@@ -290,8 +295,8 @@ body {
 }
 
 .formulaire1 {
-  background: var(--white-color);
-  opacity: 60%;
+  background: linear-gradient(to bottom, var(--white-color) 20%, #d4d3d533);
+  opacity: 100%;
   border-radius: 120px;
   height: 300px;
   width: 300px;
@@ -337,6 +342,7 @@ body {
   margin: 10px auto;
   padding: 10px 20px;
   border-radius: 20px;
+  background: #e5c3f7;
 }
 
 /* Design pour le footer */
@@ -423,7 +429,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    font-size: 14px; /* réduire la taille de police */
+    font-size: 14px;
   }
   .navbar {
     justify-content: center;
