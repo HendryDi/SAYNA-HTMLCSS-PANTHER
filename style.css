@@ -39,6 +39,7 @@ body {
   width: 90%;
   background: none;
 }
+
 .nav-item {
   font-family: "font-beyno", sans-serif;
   font-size: 20px;
@@ -47,54 +48,65 @@ body {
   margin-left: 20px;
   background: none;
 }
+
 .navbar img {
   margin-right: 700px;
   background: none;
 }
+
 .nav-item:hover {
   color: #df99f2;
   text-decoration: underline;
 }
 /* design pour la partie personnage du film */
+
 .wakanda {
   display: flex;
   margin-top: 100px;
   margin-bottom: 0;
 }
+
 .socialmedia {
-  margin-top: 150px;
-  margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 25px;
 }
+
 .socialmedia img {
   height: 20px;
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
 }
+
 .résumé {
-  margin: 100px 50px;
+  margin: 50px;
 }
+
 .résumé h1 {
   font-family: "font-panthera", sans-serif;
-  font-size: 45px;
+  font-size: 30px;
   color: var(--gray-light);
   margin-bottom: 0;
 }
+
 .résumé h2 {
   font-family: "font-beyno", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 5px;
   color: var(--gray-light);
 }
+
 .résumé p {
   font-family: "font-cantarell", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
+
 .résumé a {
   font-family: "font-cantarell", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
   color: var(--white-color);
 }
+
 .bp {
   height: 650px;
 }
@@ -104,6 +116,7 @@ body {
 .personnage {
   display: flex;
   height: 300px;
+
   background: var(--blue-dark);
   margin-left: 120px;
   margin-top: -70px;
@@ -159,6 +172,26 @@ body {
 .suri {
   display: flex;
 }
+.suri1 {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+.suri1 h2 {
+  font-family: "font-beyno", sans-serif;
+  font-size: 16px;
+  color: var(--gray-light);
+}
+.suri1 p {
+  font-family: "font-cantarell", sans-serif;
+  font-size: 12px;
+}
+.suri1 a {
+  color: var(--white-color);
+  font-family: "font-cantarell";
+  font-size: 12px;
+}
 
 /* design pour la description de black panther */
 
@@ -166,16 +199,19 @@ body {
   display: flex;
   margin: 100px 200px;
 }
+
 .description {
   margin-right: 150px;
   text-align: justify;
 }
+
 .description h2 {
   text-transform: capitalize;
   color: var(--gray-light);
   font-family: "font-beyno", sans-serif;
   font-size: 16px;
 }
+
 .description p {
   font-family: "font-cantarell", sans-serif;
   font-size: 12px;
@@ -187,13 +223,16 @@ body {
   height: 800px;
   width: 450px;
 }
+
 .tchalla1 {
   position: absolute;
   left: 15%;
 }
+
 .tchalla1 img {
   height: 400px;
 }
+
 .tchalla2 {
   background-color: var(--white-color);
   width: 300px;
@@ -212,6 +251,7 @@ body {
   font-size: 16px;
   margin-top: 50px;
 }
+
 .nom {
   display: flex;
   justify-content: space-around;
@@ -220,16 +260,19 @@ body {
   color: var(--white-color);
   padding: 3px 10px;
 }
+
 .nom p {
   font-family: "cantarell", sans-serif;
   font-size: 12px;
 }
+
 .propos {
   font-family: "cantarell", sans-serif;
   font-size: 12px;
   margin-top: 25px;
   margin-bottom: 100px;
 }
+
 .busteblack {
   height: 30%;
   margin: 50px auto;
@@ -245,6 +288,7 @@ body {
   font-family: "font-cantarell", sans-serif;
   padding-top: 100px;
 }
+
 .formulaire1 {
   background: var(--white-color);
   opacity: 60%;
@@ -261,6 +305,7 @@ body {
   font-size: 10px;
   margin: 0 auto;
 }
+
 .formulaire1 h1 {
   font-size: 38px;
   margin: 0 auto;
@@ -271,12 +316,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .btn-group input[type="name"],
-input[type="email"] {
+.btn-group input[type="email"] {
   border-radius: 20px;
   padding: 10px 20px;
   margin-top: 10px;
 }
+
 .btn-group textarea {
   border-radius: 20px;
   padding: 10px 20px;
@@ -284,6 +331,7 @@ input[type="email"] {
   height: 80px;
   margin-top: 10px;
 }
+
 .btn-group input[type="submit"] {
   font-size: 10px;
   margin: 10px auto;
@@ -303,6 +351,7 @@ input[type="email"] {
   justify-content: space-around;
   padding-top: 150px;
 }
+
 .saynamarvel {
   background-image: url(./Assets/logo/footer1.png);
   background-size: contain;
@@ -326,41 +375,262 @@ input[type="email"] {
   margin-top: 50px;
   padding-right: 200px;
 }
+
 .saynamarvel3 {
   display: flex;
   font-family: "cantarell";
 }
+
 .pages {
   display: flex;
   flex-direction: column;
 }
+
 .pages a {
   text-decoration: none;
   text-transform: capitalize;
   color: var(--white-color);
   margin-top: 10px;
 }
+
 .contactus {
   margin-left: 150px;
 }
+
 .contactus a {
   margin-left: 25px;
   background: none;
   text-decoration: none;
 }
+
 .contactus img {
   width: 30px;
 }
+
 .disclamer {
   margin-top: 100px;
 }
+
 .disclamer ul {
   display: flex;
 }
+
 .disclamer li {
-  /* padding-left: 10px; */
-  /* list-style: none; */
   padding-right: 20px;
   font-family: "cantarell";
   font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* réduire la taille de police */
+  }
+  .navbar {
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .nav-item {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .navbar img {
+    margin-right: 0;
+  }
+  .wakanda {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .socialmedia {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .résumé {
+    margin: 20px;
+  }
+
+  .résumé h1 {
+    font-size: 24px;
+  }
+
+  .résumé h2 {
+    font-size: 14px;
+  }
+
+  .résumé p {
+    font-size: 12px;
+  }
+
+  .résumé a {
+    font-size: 12px;
+  }
+
+  .bp {
+    height: auto;
+  }
+  .personnage {
+    flex-direction: column;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .killmonger,
+  .okoye,
+  .suri,
+  .killmonger1,
+  .okoye1,
+  .suri1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .killmonger1,
+  .okoye1,
+  .suri1 {
+    margin-top: 10px;
+  }
+
+  #hero {
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  .description {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .description h2 {
+    font-size: 14px;
+  }
+
+  .description p {
+    font-size: 10px;
+  }
+  .tchalla {
+    height: auto;
+    width: 100%;
+  }
+
+  .tchalla1 {
+    position: static;
+    margin: 0 auto;
+  }
+
+  .tchalla1 img {
+    height: 300px;
+    width: 100%;
+  }
+
+  .tchalla2 {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tchalla2 h2 {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .nom {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nom p {
+    margin-top: 10px;
+  }
+
+  .propos {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .busteblack {
+    height: 20%;
+    margin: 20px auto;
+    padding-left: 20px;
+  }
+  #formulaire {
+    padding-top: 50px;
+  }
+
+  .formulaire1 {
+    height: auto;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+  }
+
+  .formulaire1 h1 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+
+  .formulaire1 p {
+    font-size: 8px;
+  }
+
+  .btn-group input[type="name"],
+  .btn-group input[type="email"],
+  .btn-group textarea,
+  .btn-group input[type="submit"] {
+    font-size: 8px;
+    padding: 5px 10px;
+    margin-top: 5px;
+  }
+  .footer1 {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+
+  .saynamarvel {
+    margin: 0;
+    transform: none;
+    width: 50%;
+    height: auto;
+  }
+
+  .saynamarvel1 {
+    display: none;
+  }
+
+  .saynamarvel2 {
+    margin-top: 20px;
+    padding-right: 0;
+  }
+
+  .contactus {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .disclamer {
+    margin-top: 50px;
+  }
+
+  .disclamer ul {
+    flex-direction: column;
+  }
+
+  .disclamer li {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
 }
