@@ -125,11 +125,18 @@ body {
 .killmonger {
   display: flex;
 }
+.killmonger img {
+  transition: transform 0.2s ease-in-out;
+}
+.killmonger img:hover {
+  transform: scale(1.2);
+}
 .killmonger1 {
   margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
+  padding: 20px 20px;
 }
 .killmonger1 h2 {
   font-family: "font-beyno", sans-serif;
@@ -138,7 +145,7 @@ body {
 }
 .killmonger1 p {
   font-family: "font-cantarell", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
 }
 .killmonger1 a {
   color: var(--white-color);
@@ -148,12 +155,18 @@ body {
 .okoye {
   display: flex;
 }
-
+.okoye img {
+  transition: transform 0.2s ease-in-out;
+}
+.okoye img:hover {
+  transform: scale(1.2);
+}
 .okoye1 {
   margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
+  padding: 20px 20px;
 }
 .okoye1 h2 {
   font-family: "font-beyno", sans-serif;
@@ -162,7 +175,7 @@ body {
 }
 .okoye1 p {
   font-family: "font-cantarell", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
 }
 .okoye1 a {
   color: var(--white-color);
@@ -172,11 +185,18 @@ body {
 .suri {
   display: flex;
 }
+.suri img {
+  transition: transform 0.2s ease-in-out;
+}
+.suri img:hover {
+  transform: scale(1.2);
+}
 .suri1 {
   margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
+  padding: 20px 20px;
 }
 .suri1 h2 {
   font-family: "font-beyno", sans-serif;
@@ -185,12 +205,26 @@ body {
 }
 .suri1 p {
   font-family: "font-cantarell", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
 }
 .suri1 a {
   color: var(--white-color);
   font-family: "font-cantarell";
   font-size: 12px;
+}
+button {
+  height: 40px;
+  border-radius: 300px;
+  border-color: transparent;
+  background-color: var(--blue-dark);
+  margin-top: 120px;
+  margin-right: 20px;
+}
+.scroll-right img {
+  height: 20px;
+}
+button:hover {
+  background-color: #fff;
 }
 
 /* design pour la description de black panther */
@@ -524,46 +558,9 @@ body {
     height: auto;
     width: 100%;
   }
-
-  .tchalla1 {
-    position: static;
-    margin: 0 auto;
-  }
-
-  .tchalla1 img {
-    height: 300px;
-    width: 100%;
-  }
-
   .tchalla2 {
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 45px;
   }
-
-  .tchalla2 h2 {
-    font-size: 14px;
-    margin-top: 20px;
-  }
-
-  .nom {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .nom p {
-    margin-top: 10px;
-  }
-
-  .propos {
-    font-size: 10px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
-
   .busteblack {
     height: 20%;
     margin: 20px auto;
@@ -575,7 +572,7 @@ body {
 
   .formulaire1 {
     height: auto;
-    width: 80%;
+    width: 50%;
     margin: 50px auto;
     padding: 30px;
   }
@@ -588,10 +585,11 @@ body {
   .formulaire1 p {
     font-size: 8px;
   }
-
+  .btn-group textarea {
+    margin-left: 50px;
+  }
   .btn-group input[type="name"],
   .btn-group input[type="email"],
-  .btn-group textarea,
   .btn-group input[type="submit"] {
     font-size: 8px;
     padding: 5px 10px;
@@ -623,8 +621,10 @@ body {
   }
 
   .contactus {
-    margin-left: 0;
-    margin-top: 20px;
+    margin-left: 70px;
+  }
+  .contactus h2 {
+    margin-left: 20px;
   }
 
   .disclamer {
