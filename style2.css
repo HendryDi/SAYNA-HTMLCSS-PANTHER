@@ -23,6 +23,9 @@
   --blue-color: #07338c;
   --blue-dark: #021740;
 }
+
+/* design normal pour un écran portable de 1440px */
+
 body {
   margin: 0;
   padding: 0;
@@ -244,4 +247,7 @@ body {
   padding-right: 20px;
   font-family: "font-cantarell";
   font-size: 12px;
+}
+.droits {
+  list-style: none;
 }
