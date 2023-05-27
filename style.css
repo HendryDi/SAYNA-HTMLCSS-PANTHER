@@ -30,6 +30,7 @@ body {
   background: linear-gradient(to right, #020812, #182643);
   color: #fff;
   animation: fadeInLeft 1s ease-in-out 0s 1 normal forwards;
+  font-size: 16px;
 }
 
 @keyframes fadeInLeft {
@@ -42,6 +43,7 @@ body {
     transform: translateX(0);
   }
 }
+
 /* design pour l'en-tête de la page */
 .navbar {
   display: flex;
@@ -75,6 +77,28 @@ body {
   color: #df99f2;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  .navbar img {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .nav-item {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .navbar img {
+    margin-right: 5px;
+    width: 100px;
+  }
+}
+
 /* design pour la partie personnage du film */
 
 .wakanda {
@@ -138,6 +162,76 @@ body {
   height: 650px;
 }
 
+@media only screen and (max-width: 768px) {
+  .wakanda {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .socialmedia {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .résumé {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .résumé h1 {
+    font-size: 32px;
+  }
+  .résumé h2 {
+    font-size: 18px;
+  }
+  .résumé p {
+    font-size: 14px;
+  }
+  .résumé a {
+    font-size: 12px;
+  }
+  .bp {
+    height: auto;
+    width: 70%;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .wakanda {
+    flex-direction: column;
+    align-items: center;
+  }
+  .socialmedia img {
+    margin-top: 5px;
+    margin-left: 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .résumé {
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  .résumé h1 {
+    font-size: 24px;
+  }
+  .résumé h2 {
+    font-size: 16px;
+  }
+  .résumé p {
+    font-size: 10px;
+  }
+  .résumé a {
+    font-size: 10px;
+  }
+  .bp {
+    height: auto;
+    width: 50%;
+  }
+}
+
 /* design pour la barre de personnage */
 
 .personnage {
@@ -148,15 +242,19 @@ body {
   margin-top: -70px;
   margin-bottom: 150px;
 }
+
 .killmonger {
   display: flex;
 }
+
 .killmonger img {
   transition: transform 0.2s ease-in-out;
 }
+
 .killmonger img:hover {
   transform: scale(1.2);
 }
+
 .killmonger1 {
   margin-top: 5px;
   margin-left: 20px;
@@ -164,33 +262,41 @@ body {
   text-align: justify;
   padding: 20px 20px;
 }
+
 .killmonger1 h2 {
   font-family: "font-beyno", sans-serif;
   font-size: 16px;
   color: var(--gray-light);
 }
+
 .killmonger1 p {
   font-family: "font-cantarell", sans-serif;
   font-size: 10px;
 }
+
 .killmonger1 a {
   color: var(--white-color);
   font-family: "font-cantarell";
   font-size: 12px;
   text-decoration: none;
 }
+
 .killmonger1 a:hover {
   text-decoration: underline;
 }
+
 .okoye {
   display: flex;
 }
+
 .okoye img {
   transition: transform 0.2s ease-in-out;
 }
+
 .okoye img:hover {
   transform: scale(1.2);
 }
+
 .okoye1 {
   margin-top: 5px;
   margin-left: 20px;
@@ -204,11 +310,13 @@ body {
   font-size: 16px;
   color: var(--gray-light);
 }
+
 .okoye1 p {
   font-family: "font-cantarell", sans-serif;
   font-size: 10px;
   margin-bottom: 0;
 }
+
 .okoye1 a {
   color: var(--white-color);
   font-family: "font-cantarell";
@@ -216,18 +324,23 @@ body {
   margin-top: 0;
   text-decoration: none;
 }
+
 .okoye1 a:hover {
   text-decoration: underline;
 }
+
 .suri {
   display: flex;
 }
+
 .suri img {
   transition: transform 0.2s ease-in-out;
 }
+
 .suri img:hover {
   transform: scale(1.2);
 }
+
 .suri1 {
   margin-top: 5px;
   margin-left: 20px;
@@ -235,23 +348,108 @@ body {
   text-align: justify;
   padding: 20px 20px;
 }
+
 .suri1 h2 {
   font-family: "font-beyno", sans-serif;
   font-size: 16px;
   color: var(--gray-light);
 }
+
 .suri1 p {
   font-family: "font-cantarell", sans-serif;
   font-size: 10px;
 }
+
 .suri1 a {
   color: var(--white-color);
   font-family: "font-cantarell";
   font-size: 12px;
   text-decoration: none;
 }
+
 .suri1 a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .personnage {
+    flex-direction: column;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .killmonger,
+  .okoye,
+  .suri {
+    margin-bottom: 20px;
+  }
+
+  .killmonger1,
+  .okoye1,
+  .suri1 {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  .killmonger img,
+  .okoye img {
+    height: 300px;
+    width: 218px;
+  }
+
+  .killmonger1 h2,
+  .okoye1 h2,
+  .suri1 h2 {
+    font-size: 18px;
+  }
+
+  .killmonger1 p,
+  .okoye1 p,
+  .suri1 p {
+    font-size: 14px;
+  }
+
+  .killmonger1 a,
+  .okoye1 a,
+  .suri1 a {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .personnage {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .killmonger img,
+  .okoye img,
+  .suri img {
+    height: 200px;
+    width: 130px;
+  }
+
+  .killmonger1 h2,
+  .okoye1 h2,
+  .suri1 h2 {
+    font-size: 14px;
+  }
+
+  .killmonger1 p,
+  .okoye1 p,
+  .suri1 p {
+    font-size: 10px;
+  }
+
+  .killmonger1 a,
+  .okoye1 a,
+  .suri1 a {
+    font-size: 8px;
+  }
 }
 
 /* design pour la description de black panther */
@@ -278,7 +476,46 @@ body {
   font-size: 12px;
 }
 
+@media only screen and (max-width: 768px) {
+  #hero {
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  .description {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .description h2 {
+    font-size: 14px;
+  }
+
+  .description p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  #hero {
+    margin: 15px;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+
+  .description h2 {
+    font-size: 12px;
+  }
+
+  .description p {
+    font-size: 10px;
+  }
+}
+
 /* design pour la carte T'challa */
+
 .tchalla {
   position: relative;
   height: 800px;
@@ -345,6 +582,77 @@ body {
   padding-left: 80px;
 }
 
+@media only screen and (max-width: 768px) {
+  .tchalla {
+    height: auto;
+    width: 100%;
+    padding-left: 50px;
+  }
+  .tchalla1 {
+    margin: 0 auto;
+    margin-left: 50px;
+  }
+  .tchalla2 {
+    margin-left: 45px;
+  }
+  .busteblack {
+    height: 20%;
+    margin: 20px auto;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .tchalla {
+    height: 400px;
+    width: 300px;
+    padding-right: 20px;
+  }
+
+  .tchalla1 {
+    left: 18%;
+  }
+
+  .tchalla1 img {
+    height: 170px;
+    width: 140px;
+  }
+
+  .tchalla2 {
+    width: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 150px;
+  }
+
+  .tchalla2 h2 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .nom span {
+    padding: 2px 6px;
+    margin: 0 2px;
+  }
+
+  .nom p {
+    font-size: 10px;
+  }
+
+  .propos {
+    font-size: 8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .busteblack {
+    margin: 20px auto;
+    padding-left: 90px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
 /* design pour le formulaire */
 
 #formulaire {
@@ -383,7 +691,7 @@ body {
   flex-direction: column;
 }
 
-.btn-group input[type="name"],
+.btn-group input[type="text"],
 .btn-group input[type="email"] {
   border-radius: 38px;
   padding: 10px 20px;
@@ -405,8 +713,81 @@ body {
   border-radius: 38px;
   background: #e5c3f7;
 }
+
 .btn-group input[type="submit"]:hover {
   box-shadow: 0 0 20px #021740;
+}
+
+@media only screen and (max-width: 768px) {
+  #formulaire {
+    padding-top: 50px;
+    background-position: center;
+  }
+
+  .formulaire1 {
+    height: auto;
+    width: 50%;
+    margin: 100px auto;
+    padding: 30px;
+  }
+
+  .formulaire1 h1 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+
+  .formulaire1 p {
+    font-size: 8px;
+  }
+  .btn-group textarea {
+    width: 350px;
+  }
+  .btn-group input[type="text"],
+  .btn-group input[type="email"],
+  .btn-group input[type="submit"] {
+    font-size: 8px;
+    padding: 5px 10px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  #formulaire {
+    padding-top: 30px;
+    background-position: center;
+  }
+
+  .formulaire1 {
+    height: 200px;
+    width: 200px;
+    margin: 150px auto;
+    padding: 20px 30px;
+  }
+
+  .formulaire1 h1 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .btn-group input[type="text"],
+  .btn-group input[type="email"] {
+    padding: 6px 12px;
+    margin-top: 3px;
+  }
+
+  .btn-group textarea {
+    padding: 6px 12px;
+    width: 180px;
+    height: 40px;
+    margin-top: 3px;
+    font-size: 10px;
+  }
+
+  .btn-group input[type="submit"] {
+    font-size: 6px;
+    margin: 3px auto;
+    padding: 6px 12px;
+  }
 }
 
 /* Design pour le footer */
@@ -518,163 +899,7 @@ body {
   list-style: none;
 }
 
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-    width: 724px;
-  }
-  .navbar {
-    justify-content: center;
-    margin-top: 50px;
-  }
-
-  .nav-item {
-    font-size: 16px;
-    margin-left: 10px;
-  }
-
-  .navbar img {
-    margin-right: 0;
-  }
-  .wakanda {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-
-  .socialmedia {
-    margin-top: 20px;
-    margin-left: 0;
-    width: 25%;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .résumé {
-    margin: 100px auto;
-    padding: 0 150px;
-  }
-
-  .résumé h1 {
-    font-size: 24px;
-  }
-
-  .résumé h2 {
-    font-size: 14px;
-  }
-
-  .résumé p {
-    font-size: 12px;
-  }
-
-  .résumé a {
-    font-size: 12px;
-  }
-
-  .bp {
-    height: auto;
-    width: 80%;
-    padding-left: 100px;
-  }
-  .personnage {
-    flex-direction: column;
-    height: auto;
-    margin-top: 0;
-    margin-left: 50px;
-    margin-bottom: 50px;
-  }
-
-  .killmonger,
-  .okoye,
-  .suri,
-  .killmonger1,
-  .okoye1,
-  .suri1 {
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .killmonger img,
-  .okoye img {
-    height: 300px;
-    width: 218px;
-  }
-
-  .killmonger1,
-  .okoye1,
-  .suri1 {
-    margin-top: 10px;
-  }
-
-  #hero {
-    flex-direction: column;
-    margin: 50px;
-  }
-
-  .description {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .description h2 {
-    font-size: 14px;
-  }
-
-  .description p {
-    font-size: 10px;
-    width: 670px;
-  }
-  .tchalla {
-    height: auto;
-    width: 100%;
-    margin-left: 15%;
-  }
-  .tchalla1 {
-    margin-left: 15px;
-  }
-  .tchalla2 {
-    margin-left: 45px;
-  }
-  .busteblack {
-    height: 20%;
-    margin: 20px auto;
-    padding-left: 20px;
-  }
-  #formulaire {
-    padding-top: 50px;
-    background-position: center;
-    margin-left: 50px;
-  }
-
-  .formulaire1 {
-    height: auto;
-    width: 50%;
-    margin: 100px auto;
-    padding: 30px;
-  }
-
-  .formulaire1 h1 {
-    font-size: 28px;
-    padding-bottom: 10px;
-  }
-
-  .formulaire1 p {
-    font-size: 8px;
-  }
-  .btn-group textarea {
-    margin-left: 20px;
-  }
-  .btn-group input[type="name"],
-  .btn-group input[type="email"],
-  .btn-group input[type="submit"] {
-    font-size: 8px;
-    padding: 5px 10px;
-    margin-top: 5px;
-  }
-  footer {
-    margin-left: 50px;
-  }
+@media only screen and (max-width: 768px) {
   .footer1 {
     height: auto;
     flex-direction: column;
@@ -721,5 +946,58 @@ body {
   }
   .droits {
     list-style: disc;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .footer1 {
+    height: auto;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .saynamarvel {
+    margin: 30px 0;
+  }
+
+  .saynamarvel1 {
+    top: 0;
+    right: 0;
+    transform: scale(0.2);
+  }
+
+  .saynamarvel2 {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .contactus a {
+    padding-left: 15px;
+    margin-left: 20px;
+  }
+
+  .disclamer {
+    margin-top: 30px;
+  }
+
+  .pages {
+    margin-left: 30px;
+  }
+
+  .pages h2 {
+    font-size: 18px;
+  }
+
+  .pages a {
+    margin-top: 5px;
+  }
+
+  .contactus h2 {
+    font-size: 15px;
+  }
+
+  .contactus img {
+    width: 15px;
   }
 }
